@@ -1,4 +1,4 @@
-gRPC is well supported by Bazel as it is the build tool of choice for the internal team. However, it can be unclear on how to properly set it up. See the online (support guide)[https://grpc.github.io/grpc/core/md_doc_bazel_support.html] and (quickstart)[https://grpc.io/docs/languages/cpp/quickstart/].
+gRPC is well supported by Bazel as it is the build tool of choice for the internal team. However, it can be unclear on how to properly set it up. See the online [support guide](https://grpc.github.io/grpc/core/md_doc_bazel_support.html) and [quickstart](https://grpc.io/docs/languages/cpp/quickstart/).
 
 # Building
 
