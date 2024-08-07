@@ -21,7 +21,7 @@ Then a proto_library was defined for the `messaging.proto` file, and compiled wi
 
 >[!NOTE]
 > gRPC does not support bzlmod. Disable it during build with the `--enable_bzlmod=false` flag.
-# libtorch
+# LibTorch
 
 The [PyTorch documentation](https://pytorch.org/cppdocs/installing.html) only described how to add libtorch as a C++ dependency with CMake. However, Bazel did not support the same functionalities as CMake, such as `find_package()`, which also populated the `TORCH_CXX_FLAGS` and `CMAKE_CXX_FLAGS` variables. Consequently, there was no straightforward way to achieve this with Bazel. To resolve this, CMake flags were printed and added to the Bazel build file manually.
 
